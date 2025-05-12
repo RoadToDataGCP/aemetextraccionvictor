@@ -22,7 +22,7 @@ def subirabucket(archivo, nombrecarpeta):
 
 def main():
     iniciar()
-    subirabucket('./prediccion_hoy.csv', 'output')
+    subirabucket('prediccion_hoy.csv', 'output')
  
 
 if __name__ == "__main__":

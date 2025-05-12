@@ -84,7 +84,7 @@ def iniciar():
     # Guardar CSV
     if filas:
         df = pd.DataFrame(filas)
-        df.to_csv("prediccion_hoy.csv", sep=";", index=False, encoding="utf-8-sig")
+        df.to_csv("aemetextraccionvictor/prediccion_hoy.csv", sep=";", index=False, encoding="utf-8-sig")
         print("✅ Archivo 'prediccion_hoy.csv' generado correctamente.")
 
         # Guardar JSON
